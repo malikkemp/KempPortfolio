@@ -1,5 +1,5 @@
-import {Suspense, useEffect, useState} from 'react';
-import {Canvas} from '@react-three/fiber';
+import {Suspense, useEffect, useState, useRef} from 'react';
+import {Canvas, extend, useThree, useFrame} from '@react-three/fiber';
 import {OrbitControls, Preload, SpotLight, useGLTF} from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
@@ -51,15 +51,22 @@ const ComputersCanvas = () => {
       camera={{position: [20, 3, 5], fov: 25}}
       gl={{preserveDrawingBuffer: true}}
     >
-        <Suspense fallback={<CanvasLoader />}>
+        
+        <Suspense fallback={<CanvasLoader />}> 
+          
+          {/* Temporarily turning off orbit control for mobile bug not allowing scrolling*/}
+          {/* 
           <OrbitControls 
-          autoRotate 
+          autoRotate={true}
           enableZoom={false}
           maxPolarAngle={Math.PI/2}
           minPolarAngle={Math.PI/2}
           />
-          <Computers isMobile={isMobile}/>
+          */}
+          
+          <Computers isMobile={isMobile} />
         </Suspense>
+        
 
         <Preload all/>
     </Canvas>

@@ -47,8 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-5 text-secondary text-[17px] max-w-3xl leading-[25px]'
       >
-        Hi, my name is Malik. I'm a new developer currently working as a 
-        Lead Tech at a large computer repair company and in college working 
+        I'm a new developer currently working as a 
+        Lead Technician and Store Lead at a large computer repair company and in college working 
         to achieve my Bachelors of Science in Computer Science. Computers 
         have always interested me and I enjoy being able to learn new technologies
         and build my skillset. Programming and building small projects is what 

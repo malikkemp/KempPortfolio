@@ -22,6 +22,7 @@ import asurion from "./company/asurion.png"
 import grove from "./company/grove.png"
 import ccp from "./company/ccp.png"
 import close from "./tech/close.svg"
+import resume from "./resume.pdf"
 
 
 export {
@@ -49,4 +50,5 @@ export {
   python,
   web,
   close,
+  resume,
 };
