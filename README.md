@@ -1,4 +1,6 @@
-# KempPortfolio
+**Note that the site is currently down**
+
+# Kemp Portfolio
 
 This website portfolio contains information about my experience in the field of IT and in Computer Science. I am currently doing Information Security with a large Hospital, where some of my duties include Automation projects, Audits and working with MDM Software.
 
