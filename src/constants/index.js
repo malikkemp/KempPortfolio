@@ -20,6 +20,7 @@ import {
     grove,
     asurion,
     ccp,
+    jefferson,
 
   } from "../assets";
   
@@ -91,10 +92,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -118,11 +115,24 @@ import {
   
   const experiences = [
     {
+      title: "Information Technology Specialist",
+      company_name: "Jefferson Health",
+      icon: jefferson,
+      iconBg: "#0a2964",
+      date: "July 2023 - Present",
+      points: [
+        "Manage 17,000 devices with secure MDM solutions, enhancing reliability and scalability.",
+        "Automate tasks via Python and AHK, boosting productivity and reducing manual workload.",
+        "Develop configurations, protocols, and documentation.",
+        "Troubleshoot software issues efficiently, ensuring system security and performance.",
+      ],
+    },
+    {
       title: "Store Lead / Lead Tech",
       company_name: "Asurion Tech Repair and Solutions",
       icon: asurion,
       iconBg: "#000000",
-      date: "Jan 2021 - Present",
+      date: "Jan 2021 - May 2023",
       points: [
         "Led a team of five talented repair technicians, assisting with and guiding on repairs and troubleshooting techniques, resulting in quicker repair turn-around-times resulting in an 87% jump in profits over a year.",
         "Performed concise and accurate tests and created documentation throughout the repair process.",
@@ -137,19 +147,8 @@ import {
       iconBg: "#000000",
       date: "Sept 2021 - Present",
       points: [
-        "Learned about the fundamentals of Computer Science and Object-oriented Programming.",
-        "Created small programming projects both individually and with teams of other student developers using languages including C#, C++, Java, Python, Javascript, and SQL.",
-      ],
-    },
-    {
-      title: "Product Coordinator / General Manager",
-      company_name: "The Grove Inc.",
-      icon: grove,
-      iconBg: "#FFFFFF",
-      date: "May 2018 - Jan 2021",
-      points: [
-        "Protected and grew company reputation as well as built a loyal client base by working relentlessly to resolve problems and improve customer satisfaction.",
-        "Provided onsite training, resulting in improved product management and customer service from employees as well as a higher rate of customer satisfaction while performing day-to-day operations.",
+        "Learned about the fundamentals of Computer Science, Data Structures, Algorithms, and Object-oriented Programming.",
+        "Created software development projects individually and in teams using languages including but not limited to C#, C++, Java, Python, Javascript, and SQL.",
       ],
     },
   ];

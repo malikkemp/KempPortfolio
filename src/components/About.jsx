@@ -48,12 +48,12 @@ const About = () => {
         className='mt-5 text-secondary text-[17px] max-w-3xl leading-[25px]'
       >
         I'm a new developer currently working as a 
-        Lead Technician and Store Lead at a large computer repair company and in college working 
+        Information Technology Specialist at a large hospital and in college working 
         to achieve my Bachelors of Science in Computer Science. Computers 
         have always interested me and I enjoy being able to learn new technologies
         and build my skillset. Programming and building small projects is what 
         sparked my interest in computers. When I was 17, I made my first very small
-        program in C# and Unity and have never looked back since. 
+        program in C# and Unity and haven't looked back. 
       </motion.p>
 
       {/*starts div to populate buttons*/}
